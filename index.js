@@ -6,7 +6,7 @@ let app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
-consign().include("routes").include("Utils").into(app)
+consign().include("routes").include("utils").into(app)
 
 app.listen(3000, "127.0.0.1", ()=>{
     console.log("servidor rodando")
