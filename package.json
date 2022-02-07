@@ -8,6 +8,7 @@
   "author": "Everson",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "consign": "^0.1.6",
     "express": "^4.17.2"
   },
